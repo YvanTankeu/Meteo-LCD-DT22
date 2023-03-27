@@ -1,3 +1,17 @@
+/*
+  Titre      : Projet Final Examen
+  Auteur     : Yvan Tankeu
+  Date       : 27/03/2023
+  Description: Patie arduino
+    1- Création du serveur : il s'agit de mettre en place une infrastructure serveur 
+            capable de stocker et de traiter les données météorologiques.
+    2- Conception des objets intelligents : il faut concevoir des capteurs et autres
+            dispositifs électroniques pour collecter les données météorologiques.
+    3- Affichage des données via une interface web : une fois les données collectées et 
+            stockées, elles doivent être présentées via une interface web conviviale et facile à utiliser.
+  Version    : 0.0.1
+*/
+
 #include <Arduino.h>
 #if defined(ARDUINO_SAMD_MKRWIFI1010) || defined(ARDUINO_SAMD_NANO_33_IOT) || defined(ARDUINO_AVR_UNO_WIFI_REV2)
   #include <WiFiNINA.h>
